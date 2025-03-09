@@ -9,6 +9,6 @@ void main()
 	printf("Cong: %d\n", cong(x,y));
 	printf("Tru: %d\n", tru(x, y));
 	printf("Nhan: %d\n", nhan(x, y));
-	printf("Chia: %f\n", chia(x, y));
+	printf("Chia: %.2f\n", chia(x, y));
 
 }

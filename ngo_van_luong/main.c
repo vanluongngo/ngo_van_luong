@@ -2,7 +2,19 @@
 #include"toan.h"
 void main()
 {
-
-	int arr[] = { 1, 5, 4, 8, 9 };
-	printf("tong cua mang la: %d", tong_gia_tri_trong_mang(arr, 5));
+	int tong_so_le = 0;
+	int j = 0;
+	int arr[8] = { 1, 5, 4, 8, 9, 3, 4, 7 };
+	for (int i = 0; i < 8; i++)
+	{
+		if (arr[i] % 2 == 1)
+		{
+			tong_so_le += arr[i];
+			j++;
+		}
+	}
+	if(j>0)
+		printf("trung binh cong cac so le trong mang la: %d", tong_so_le / j);
+	else
+		printf("mang da cho khong co so le");
 }

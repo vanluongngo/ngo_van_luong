@@ -4,8 +4,8 @@ void main()
 {
 	int tong_so_le = 0;
 	int j = 0;
-	int arr[8] = { 1, 5, 4, 8, 9, 3, 4, 7 };
-	for (int i = 0; i < 8; i++)
+	int arr[9] = { 1, 5, 4, 8, 9, 3, 4, 7, 1001 };
+	for (int i = 0; i < 9; i++)
 	{
 		if (arr[i] % 2 == 1)
 		{

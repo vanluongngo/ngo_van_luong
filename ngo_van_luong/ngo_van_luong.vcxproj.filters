@@ -18,24 +18,12 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="toan.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="tinhtiendien.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="summang.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="so_le.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="demsokytutrongchuoi.c">
+    <ClCompile Include="ham.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="toan.h">
+    <ClInclude Include="ham.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -127,15 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="demsokytutrongchuoi.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="so_le.c" />
-    <ClCompile Include="summang.c" />
-    <ClCompile Include="tinhtiendien.c" />
-    <ClCompile Include="toan.c" />
+    <ClCompile Include="ham.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="toan.h" />
+    <ClInclude Include="ham.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

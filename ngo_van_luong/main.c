@@ -1,9 +1,14 @@
 ﻿#include<stdio.h>
 void main()
 {
-	char str[] = "so ky tu";
-	int i = 0;
-		while (str[i] != 0)
-			i++;
-	printf("so ky tu trong chuoi la: %d\n", i);
+	int chu_in_hoa = 0;
+	char str[] = "Ngo Van Luong";
+	for (int i = 0;str[i]!=0;i++)
+	{
+		if (str[i] >='A' && str[i]<='Z')
+		{
+			chu_in_hoa++;
+		}
+	}
+	printf("so ky tu in hoa trong chuoi la: %d", chu_in_hoa);
 }

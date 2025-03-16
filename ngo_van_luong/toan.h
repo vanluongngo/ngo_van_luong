@@ -10,3 +10,4 @@ int bac4(int a);
 int bac5(int a);
 int bac6(int a);
 int tong_gia_tri_trong_mang(int* arr, int so_luong);
+int sole(int arr[], int n);

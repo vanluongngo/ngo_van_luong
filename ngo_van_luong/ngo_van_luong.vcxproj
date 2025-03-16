@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="demsokytutrongchuoi.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="so_le.c" />
     <ClCompile Include="summang.c" />
     <ClCompile Include="tinhtiendien.c" />
     <ClCompile Include="toan.c" />

@@ -27,6 +27,12 @@
     <ClCompile Include="summang.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="so_le.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demsokytutrongchuoi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="toan.h">

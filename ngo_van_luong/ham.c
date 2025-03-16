@@ -136,4 +136,19 @@ int count_space(char str[])
 		i++;
 	}
 	return count;
+}//Chức năng: Chuyển đổi chữ thường thành chữ IN HOA
+//Input: nhập vào chuỗi
+//Output: in ra chuỗi IN HOA
+void in_hoa(char str[])
+{
+	int i = 0;
+	while (str[i] != 0)
+	{
+		if (str[i] >= 97&&str[i]<=122)
+		{
+			str[i] =str[i]-32;
+		}
+		i++;
+	}
+	return;
 }

@@ -170,3 +170,22 @@ int so_tu(char str[])
 	}
 	return count+1;
 }
+//Chức năng: In hoa chữ đầu tiên của từ trong chuỗi
+//Input: nhập vào chuỗi
+//Output: in ra chuỗi đã thay đổi
+char in_hoa_chu_cai_dau(char str[])
+{
+	int i = 0;
+	while (str[i] != 0)
+	{
+		if (i == 0)
+		{
+			str[i] = str[i] - 32;
+		}
+		else if (str[i] == 32 && str[i + 1] >= 97 && str[i + 1] <= 122)
+		{
+			str[i + 1] -= 32;
+		}
+		i++;
+	}
+}

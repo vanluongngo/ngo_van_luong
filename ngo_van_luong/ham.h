@@ -15,3 +15,4 @@ int count(char str[]);
 int count_space(char str[]);
 char in_hoa(char str[]);
 int so_tu(char str[]);
+char in_hoa_chu_cai_dau(char str[]);

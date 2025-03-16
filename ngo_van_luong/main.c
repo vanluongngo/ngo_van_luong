@@ -3,6 +3,7 @@
 
 void main()
 {
-	char str[] = "Xin Chao Moi Nguoi ^%$";
-	printf("%d", so_tu(str));
+	char str[] = "xin chao moi nguoi ^%$";
+	in_hoa_chu_cai_dau(str);
+	printf("%s",str);
 }

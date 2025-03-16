@@ -12,3 +12,4 @@ int bac6(int a);
 int tong_gia_tri_trong_mang(int* arr, int so_luong);
 int sole(int arr[], int n);
 int count(char str[]);
+int count_space(char str[]);

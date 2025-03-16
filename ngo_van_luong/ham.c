@@ -120,3 +120,20 @@ int count(char str[])
 	}
 	return count;
 }
+//Chức năng: Đếm số ký tự space trong chuỗi
+//Input: nhập vào chuỗi
+//Output: in ra số ký tự space trong chuỗi
+int count_space(char str[])
+{
+	int count = 0;
+	int i = 0;
+	while (str[i] != 0)
+	{
+		if (str[i] == 32)
+		{
+			count++;
+		}
+		i++;
+	}
+	return count;
+}

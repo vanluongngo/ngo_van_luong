@@ -13,4 +13,5 @@ int tong_gia_tri_trong_mang(int* arr, int so_luong);
 int sole(int arr[], int n);
 int count(char str[]);
 int count_space(char str[]);
-void in_hoa(char str[]);
+char in_hoa(char str[]);
+int so_tu(char str[]);

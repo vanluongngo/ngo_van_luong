@@ -4,6 +4,5 @@
 void main()
 {
 	char str[] = "Xin Chao Moi Nguoi ^%$";
-	in_hoa(str);
-	printf("%s",str);
+	printf("%d", so_tu(str));
 }

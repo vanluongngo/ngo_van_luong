@@ -136,10 +136,11 @@ int count_space(char str[])
 		i++;
 	}
 	return count;
-}//Chức năng: Chuyển đổi chữ thường thành chữ IN HOA
+}
+//Chức năng: Chuyển đổi chữ thường thành chữ IN HOA
 //Input: nhập vào chuỗi
 //Output: in ra chuỗi IN HOA
-void in_hoa(char str[])
+char in_hoa(char str[])
 {
 	int i = 0;
 	while (str[i] != 0)
@@ -151,4 +152,21 @@ void in_hoa(char str[])
 		i++;
 	}
 	return;
+}
+//Chức năng: Đếm từ trong chuỗi
+//Input: nhập vào chuỗi
+//Output: in ra số từ trong chuỗi
+int so_tu(char str[])
+{
+	int i = 0;
+	int count = 0;
+	while (str[i] != 0)
+	{
+		if (str[i]==32)
+		{
+			count++;
+		}
+		i++;
+	}
+	return count+1;
 }
